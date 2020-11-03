@@ -3,12 +3,29 @@
   flex-direction: column;
 }
 
+.Weather_focused {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh
+}
+
+.Weather_focused .Weather_temp{
+  font-size: 10vw;
+  color: white;
+  font-size: 20px;
+}
+
 .Weather_focused img {
   width: 100px;
 }
 
 .Weather_forecast {
   display: flex;
+  justify-content: center;
 }
 
 .Weather_box {
