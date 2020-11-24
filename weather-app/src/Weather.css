@@ -26,12 +26,16 @@
 .Weather_forecast {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .Weather_box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 10px;
+  color: white;
+  font-size: 20px
 }
 
 .Weather_box img {
